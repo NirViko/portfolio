@@ -1,0 +1,26 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  height: 20%;
+  background-color: black;
+  border-radius: 11px 11px 11px 11px;
+  box-shadow: 1px 2px 44px -2px rgba(0, 0, 0, 0.68);
+  transition: 0.3s;
+}
+.card:hover {
+  margin-top: -15px;
+}
+.paragraphStyle {
+  padding: 10px;
+}
+.paragraphStyle + a {
+  border-radius: 21px 21px 21px 21px;
+  margin-bottom: 15px;
+  padding: 8px;
+  color: black;
+  background-color: #b3ff99;
+  border: none;
+  text-decoration: none;
+}
